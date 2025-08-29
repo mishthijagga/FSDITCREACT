@@ -1,0 +1,37 @@
+/* body{
+    background-color: brown;
+} */
+ /* h2,p,h3{
+
+    background-color: violet
+
+     }
+     #heading{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: xx-large;
+     } */
+      div~p{
+        background-color: aqua;
+        color: red;
+      }
+      p:hover{
+        background-color: cadetblue;
+        font-size: small;
+        color: chocolate;
+      }
+      p::after{
+        content: "react dev";
+        background-color: rebeccapurple;
+        color: white;
+      }
+      p::before{
+        content: "hey learning react";
+        background-color: plum;
+      }
+      p::selection{
+        background-color: chartreuse;
+      }
+      p:nth-child(2){
+        background-color: black;
+      }
+      /* div p:nth-of-type(1) */
